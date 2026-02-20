@@ -1,8 +1,9 @@
 # Compressing-variant-files-
 VCF files compression &amp; decompression
 
+This repository shows how to decompress VCF files and restoring them at your end.
 
-How to decompress files and restoring them at your end:
+Final annotated VCF files were compressed using tar and GSC to reduce file size and facilitate secure data transfer.
 
 # GSC (Genotype Sparse Compression): 
 
