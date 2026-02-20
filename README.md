@@ -28,9 +28,9 @@ Now go to the directory where you have downloaded the files and open terminal:
 ** 2> now you have 10 .gsc files and time to restore them back to .vcf files.**
 
 
-for i in $(sample 1 10); do
+** for i in $(sample 1 10); do
 gsc decompress --in XY_${i}_annotated.gsc --out XY_${i}_annotated.vcf
-done
+done **
 
 
 Now you have files decompressed from 30mb to 700mb
