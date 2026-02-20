@@ -29,7 +29,9 @@ Now go to the directory where you have downloaded the files and open terminal:
 
 
 ** for i in $(sample 1 10); do
+
 gsc decompress --in XY_${i}_annotated.gsc --out XY_${i}_annotated.vcf
+
 done **
 
 
@@ -40,7 +42,9 @@ Now you have files decompressed from 30mb to 700mb
 
 
   ** 1. for i in $(sample 1 10); do
+  
       gsc compress --in XY_${i}_annotated.vcf --out XY_${i}_annotated.gsc
+      
       done **
       
   ** 2. tar -cvzf all_samples.tar.gz *_annotated.gsc** 
